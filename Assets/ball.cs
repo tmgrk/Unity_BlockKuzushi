@@ -3,7 +3,7 @@ using System.Collections;
 
 public class ball : MonoBehaviour {
 
-	private float Speed = 20.0f;
+	private float Speed = 10.0f;
 
 	// Use this for initialization
 	void Start () {
