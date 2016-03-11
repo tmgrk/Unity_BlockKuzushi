@@ -438,6 +438,8 @@ GameObject:
   - 33: {fileID: 1100210249}
   - 65: {fileID: 1100210248}
   - 23: {fileID: 1100210247}
+  - 54: {fileID: 1100210252}
+  - 114: {fileID: 1100210251}
   m_Layer: 0
   m_Name: Bar
   m_TagString: Untagged
@@ -502,6 +504,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+--- !u!114 &1100210251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1100210246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 170228a06a28b4be39a3e16fa4a237ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!54 &1100210252
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1100210246}
+  serializedVersion: 2
+  m_Mass: 50
+  m_Drag: 30
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 124
+  m_CollisionDetection: 0
 --- !u!1 &1228803864
 GameObject:
   m_ObjectHideFlags: 0
