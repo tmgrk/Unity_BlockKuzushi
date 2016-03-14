@@ -48,6 +48,7 @@
      <Compile Include="Assets\BarControler.cs" />
      <Compile Include="Assets\Block1.cs" />
      <Compile Include="Assets\ball.cs" />
+     <Compile Include="Assets\ball1.cs" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
